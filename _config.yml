@@ -1,0 +1,23 @@
+name: My bolg
+author: JC
+url: https://jc1joker.github.io/comments-github.io/
+baseurl: 
+resume_site: 
+description: 
+github_username: 
+github: 
+plugins: [jekyll-paginate]
+permalink: /:year-:month-:day-:title
+paginate: 12
+paginate_path: "/page/:num/"
+exclude: ['README.md', 'Gemfile.lock', 'Gemfile', 'Rakefile']
+highlighter: rouge
+markdown: kramdown
+comments :
+  gitalk :
+    clientID : efc15a7130a4a8dacd7f
+    clientSecret : 0606e3c5973acf33f8779ea60fb507b2ce48b42d 
+    repo : page
+    owner : JC1Joker
+    admin : [JC1Joker]
+    # 数组方式
